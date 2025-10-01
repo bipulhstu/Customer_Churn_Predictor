@@ -6,6 +6,10 @@ A machine learning project to predict whether a customer will stop using a servi
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-orange.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-red.svg)
 
+## 🌐 Live Demo
+
+**Try the app now:** [https://customer--churn-predictor.streamlit.app/](https://customer--churn-predictor.streamlit.app/)
+
 ---
 
 ## 📝 Description
@@ -268,7 +272,11 @@ joblib.dump(scaler, 'scaler.pkl')
 
 ## 🌐 Streamlit Web Application
 
-### Running the App
+### 🚀 Live Deployment
+
+**Access the live app here:** [https://customer--churn-predictor.streamlit.app/](https://customer--churn-predictor.streamlit.app/)
+
+### Running Locally
 
 1. **Ensure model files exist:**
    - `churn_model.pkl`
@@ -352,6 +360,9 @@ joblib.dump(scaler, 'scaler.pkl')
 
 ## 📝 How to Use This Project
 
+### 🚀 Quick Start - Use the Live App:
+**Try it now (no installation required):** [https://customer--churn-predictor.streamlit.app/](https://customer--churn-predictor.streamlit.app/)
+
 ### For Data Scientists:
 1. Open `Customer_Churn_Predictor.ipynb` in Jupyter Notebook
 2. Run cells sequentially to reproduce the analysis
@@ -359,10 +370,11 @@ joblib.dump(scaler, 'scaler.pkl')
 4. Modify visualizations for your needs
 
 ### For Business Users:
-1. Run the Streamlit app: `streamlit run app.py`
-2. Input customer details in the web interface
-3. Get instant churn predictions
-4. Use recommendations to develop retention strategies
+1. **Option 1 (Recommended):** Use the [live app](https://customer--churn-predictor.streamlit.app/) directly in your browser
+2. **Option 2:** Run locally with `streamlit run app.py`
+3. Input customer details in the web interface
+4. Get instant churn predictions
+5. Use recommendations to develop retention strategies
 
 ### For Developers:
 1. Load the saved model:
@@ -398,13 +410,37 @@ joblib.dump(scaler, 'scaler.pkl')
 
 ---
 
+## 🚀 Deployment
+
+### Live Application
+
+The Customer Churn Predictor is deployed on Streamlit Cloud and accessible at:
+
+**🔗 [https://customer--churn-predictor.streamlit.app/](https://customer--churn-predictor.streamlit.app/)**
+
+### Deployment Features:
+- ✅ **Always Online:** 24/7 availability
+- ✅ **Real-time Predictions:** Instant churn probability calculations
+- ✅ **Dark Theme UI:** Modern, eye-friendly interface
+- ✅ **Mobile Responsive:** Works on all devices
+- ✅ **No Installation Required:** Use directly in browser
+
+### How to Deploy Your Own:
+
+1. Fork this repository
+2. Push to GitHub
+3. Visit [Streamlit Cloud](https://share.streamlit.io/)
+4. Deploy with one click!
+
+---
+
 ## 📊 Future Improvements
 
 - [ ] Add more advanced models (XGBoost, LightGBM)
 - [ ] Implement feature importance visualization in the app
 - [ ] Add batch prediction capability
 - [ ] Create REST API with FastAPI/Flask
-- [ ] Deploy to cloud (Streamlit Cloud, Heroku, AWS)
+- [x] Deploy to cloud (Streamlit Cloud) ✅
 - [ ] Add A/B testing framework
 - [ ] Implement real-time data pipeline
 - [ ] Add explainability with SHAP values
